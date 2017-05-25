@@ -29,6 +29,9 @@ trait Adventure {
     Diamond()
   }
 
+  // 요런 간단한 예제로 시작
+  // 근데 그 과정에서 exception이 발생하면, 그 다음 buyTreasure는 어쩜?
+  // 리턴타입에 실패할 수도 있다는 정보가 엄따.
   def Play() : Unit = {
     val adventure = Adventure()
     val coins = adventure.collectCoins()
