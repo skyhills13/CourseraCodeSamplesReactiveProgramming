@@ -45,7 +45,7 @@ trait Adventure {
     } yield treasure
   }
 
-  //  trait Try[T] {
+//trait Try[T] {
 //    def map[S](op: T => S): Try[S] = this match {
 //      case Success(value) => Try(op(value))
 //      case failure@Failure(t) => failure
